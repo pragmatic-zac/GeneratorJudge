@@ -25,7 +25,7 @@ namespace GeneratorJudge
 
             Task.Factory.StartNew(ThreadedOrchestrator, cts.Token);
 
-                Console.ReadKey();
+            Console.ReadKey();
             cts.Cancel();
         }
 
